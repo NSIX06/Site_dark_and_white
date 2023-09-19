@@ -11,11 +11,13 @@
 {
     --plano-fundo: #000;
     --titulo: #FFF;
+    --titulo2: #FA7800;
 }
 
 body{
     background-color: var(--plano-fundo);
     margin: 0;
+font-family: 'Poppins', sans-serif;
 }
 
 #botao-hamburguer{
@@ -34,12 +36,29 @@ body{
 
 }
 
+h1{
+    position: relative;
+}
+
 h1
 {
+    position: absolute;
+    left: 50px;
+    top: -10px;
     color: var(--texto-titulos);
 }
 
+
+
 h2{
+    color: var(--titulo2);
+}
+
+h4{
+    color: var(--titulo);
+}
+
+h3{
     color: var(--titulo);
 }
 
@@ -54,15 +73,19 @@ h2{
     position: absolute;
     bottom: 0;
     font-size: 15px;
-    left: 100px;
+    left: 70px;
     color: var(--texto-imagens);
     padding: 0.5% 1%;
 }
 
 .container img
 {
-    width: 50%;
-    height: 50%;
+    width: 250px;
+    height: 250px;
+    top: 508px;
+    padding: 2% 1%;
+    border-radius: 10px;
+
 }
 
 header{
@@ -83,21 +106,30 @@ header{
     
 }
 
-#banner h2 {
+#banner h3 {
     position: absolute;
     bottom: 10px;
     left: 0;
-    padding: 1% 1%;
+    padding: 2% 1%;
+    font-size: 25px;
 }
 
-#banner h3{
+#banner h4{
     position: absolute;
     bottom: -5px;
     left: 0;
-    padding: 1% 1%;
+    padding: 0.5% 1%;
     
 }
-
+ input {
+    text-align: center;
+    width: 300px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px #BE5B00 solid;
+    outline:#BE5B00 ;
+}
 
 .text-corp{
     
@@ -106,54 +138,83 @@ header{
 }
 
 
-#curso{
+#cursos h2 {
 
     text-align: center;
 }
 
-.curso
 
-{   
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 24px;
-    justify-content: center;
-}
 
-.bele{
+.cs{
     
-    background-color: #FB83FE;
-    border-radius: 10px;
-    text-decoration: none;
-}
-.desi{
-
-    border-radius: 10px;
-    background-color: #FEE383;
-    text-decoration: none;
-}
-
-.neg{
-
-    border-radius: 10px;
-    background-color: #83C3FE;
-    text-decoration: none;
-}
-
-.tec{
-    border-radius: 10px;
-    background-color: #A383FE;
-    text-decoration: none;
-}
-
-.sau{
-    border-radius: 10px;
-    background-color: #94FE83;
-    text-decoration: none;
+    width: 80%;
+    margin: 0 auto;  
+    text-align: center;
   
+ 
+}
+
+
+
+
+.csB{
+
+    padding: 2%;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #FB83FE;
+    text-decoration: none;
+}
+
+
+.csD{
+
+  
+    padding: 2%;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    background-color: #FEE383;
+}
+
+.csN{
+
+    padding: 2% ;
+    border-radius: 5px;
+    margin: 10px;
+    background-color:  #83C3FE;;
+    text-decoration: none;
+}
+.csT{
+
+
+    padding: 2%;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #A383FE;;
+    text-decoration: none;
+}
+
+.csS{
+
+    padding: 2%;
+    margin: 9px;
+    border-radius: 5px;
+    background-color:#94FE83;
+    text-decoration: none;
+}
+
+.aq{
+
+    padding: 4% 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
 }
 
 footer{
+    padding: 2% 1%;
     color:#FFF;
     font-size: 16px ;
     background-color: #BE5B00;
