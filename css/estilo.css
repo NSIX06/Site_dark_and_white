@@ -1,3 +1,4 @@
+
 :root
 {
     --plano-fundo: #FFF;
@@ -27,7 +28,7 @@ body{
 
 #botao-lua{
     background-color: transparent;
-    font-size: 24px;
+    font-size: 45px;
     border: 0;
     color: #FFF;
 
@@ -49,10 +50,13 @@ h2{
 
 .container h3
 {
+    
     position: absolute;
     bottom: 0;
-    left: 0;
+    font-size: 15px;
+    left: 100px;
     color: var(--texto-imagens);
+    padding: 0.5% 1%;
 }
 
 .container img
@@ -101,3 +105,59 @@ header{
     text-align: center;
 }
 
+
+#curso{
+
+    text-align: center;
+}
+
+.curso
+
+{   
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.bele{
+    
+    background-color: #FB83FE;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.desi{
+
+    border-radius: 10px;
+    background-color: #FEE383;
+    text-decoration: none;
+}
+
+.neg{
+
+    border-radius: 10px;
+    background-color: #83C3FE;
+    text-decoration: none;
+}
+
+.tec{
+    border-radius: 10px;
+    background-color: #A383FE;
+    text-decoration: none;
+}
+
+.sau{
+    border-radius: 10px;
+    background-color: #94FE83;
+    text-decoration: none;
+  
+}
+
+footer{
+    color:#FFF;
+    font-size: 16px ;
+    background-color: #BE5B00;
+    text-align: center;
+    margin: 0;
+   
+}
