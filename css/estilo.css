@@ -17,9 +17,13 @@
 body{
     background-color: var(--plano-fundo);
     margin: 0;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
 #botao-hamburguer{
     background-color: transparent;
     font-size: 24px;
@@ -28,9 +32,16 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+#btn{
+
+    font-size: 30px;
+}
+
 #botao-lua{
     background-color: transparent;
-    font-size: 45px;
+    font-size: 44px;
+    right: -50px;
+    top: -10px;
     border: 0;
     color: #FFF;
 
